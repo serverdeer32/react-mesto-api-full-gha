@@ -90,6 +90,7 @@ function App() {
     if (localStorage.jwt) {
       auth.getContent(localStorage.jwt)
         .then(res => {
+          console.log(res)
           setUserData(res.email)
           setLoggedIn(true)
           navigate('/')
