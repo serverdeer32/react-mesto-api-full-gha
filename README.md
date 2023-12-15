@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.131.65
+IP 158.160.131.65
 
 Frontend https://mesto.akzntsv.nomoredomainsmonster.ru/
 
