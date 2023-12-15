@@ -1,0 +1,9 @@
+.gallery__loader {
+  width: 150px;
+  height: 150px;
+  align-self: start;
+  justify-self: center;
+
+  background-image: url(../../../images/load.gif);
+
+}

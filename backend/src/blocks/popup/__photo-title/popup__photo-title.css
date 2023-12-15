@@ -1,0 +1,10 @@
+.popup__photo-title {
+  min-width: 12px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: white;
+  margin: 10px 0 0;
+  padding: 0;
+}

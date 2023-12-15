@@ -1,0 +1,64 @@
+.header {
+  max-width: 880px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  margin: 45px auto 0;
+  padding: 0 0 37px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    margin: 28px auto 0;
+    padding: 0 0 26px 27px;
+  }
+}
+
+.header__mail {
+  color: #FFF;
+  text-align: right;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  text-decoration: none;
+}
+
+.header__auth-button {
+  color: #ffffff;
+  text-align: right;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 122.222% */
+  text-decoration: none;
+  margin-left: 24px;
+  transition: 0.3s ease-in-out;
+}
+
+.header__auth-button:hover {
+  color: #FFF;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.header__logout-button {
+  color: #A9A9A9;
+  text-align: right;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 122.222% */
+  text-decoration: none;
+  margin-left: 24px;
+  transition: 0.3s ease-in-out;
+}
+
+.header__logout-button:hover {
+  color: #FFF;
+  cursor: pointer;
+  opacity: 0.5;
+}
