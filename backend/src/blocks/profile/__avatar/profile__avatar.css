@@ -1,9 +1,0 @@
-.profile__avatar {
-  display: inline-block;
-  position: relative;
-}
-
-.profile__avatar:hover .profile__avatar-overlay {
-  opacity: 1;
-  cursor: pointer;
-}

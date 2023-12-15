@@ -1,21 +1,19 @@
-# Проект: Место React
+# Проект: бэкенд проекта Mesto
 
-**Figma**
+[![Tests](../../actions/workflows/tests-13-sprint.yml/badge.svg)](../../actions/workflows/tests-13-sprint.yml) [![Tests](../../actions/workflows/tests-14-sprint.yml/badge.svg)](../../actions/workflows/tests-14-sprint.yml)
+# Проект Mesto фронтенд + бэкенд
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
+Ссылка на проект: https://github.com/serverdeer32/express-mesto-gha
 
-**Для рабработки страницы использовано:**
+## Директории
 
-1. HTML
-2. CSS
-3. БЭМ и файловая структура Nested
-4. Flexbox-вёрстка
-5. GRID Layout
-6. Адаптивный дизайн
-7. JavaScript
-8. Валидация форм с помощью JavaScript
-9. ООП, ES6 Modules
-10. Webpack
-11. Подключение API
-12. React
-13. React Router
+`/routes` — папка с файлами роутера  
+`/controllers` — папка с файлами контроллеров пользователя и карточки   
+`/models` — папка с файлами описания схем пользователя и карточки  
+  
+Остальные директории вспомогательные, создаются при необходимости разработчиком
+
+## Запуск проекта
+
+`npm run start` — запускает сервер   
+`npm run dev` — запускает сервер с hot-reload
