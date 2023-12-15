@@ -1,4 +1,4 @@
-export const baseUrl = "http://api.mesto.akzntsv.nomoredomainsmonster.ru";
+export const baseUrl = "https://api.mesto.akzntsv.nomoredomainsmonster.ru";
 
 function getResponse(res) {
   if (res.ok) {
