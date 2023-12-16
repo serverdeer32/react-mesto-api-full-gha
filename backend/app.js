@@ -33,6 +33,12 @@ mongoose.connect(DB_URL, {
 app.use(requestLogger);
 app.use(limiter);
 
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+}); 
+
 app.use('/', require('./routes/index'));
 
 app.all('*', (req, res) => {
