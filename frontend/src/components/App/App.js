@@ -165,7 +165,7 @@ function App() {
       })
       .catch((err) => {
         setSuccess(false)
-        handleInfoToolTipClick();
+        handleInfoToolTipClick()
         console.error(`Ошибка авторизации ${err}`)
       })
       .finally(() => setIsSend(false))
