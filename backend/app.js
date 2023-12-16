@@ -15,6 +15,12 @@ const app = express();
 
 app.use(cors());
 
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
+
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   max: 100,
@@ -35,7 +41,7 @@ app.use(limiter);
 
 app.use('/', require('./routes/index'));
 
-app.all('*', (req, res) => {
+app.all('*', (req, res, next) => {
   next(new NotFoundError('Маршрут не найден'));
 });
 
