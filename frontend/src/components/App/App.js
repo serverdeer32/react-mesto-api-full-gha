@@ -164,6 +164,8 @@ function App() {
         navigate('/')
       })
       .catch((err) => {
+        setSuccess(false)
+        handleInfoToolTipClick();
         console.error(`Ошибка авторизации ${err}`)
       })
       .finally(() => setIsSend(false))
