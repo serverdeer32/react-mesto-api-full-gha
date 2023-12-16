@@ -13,4 +13,4 @@ IP 158.160.131.65
 
 Frontend https://mesto.akzntsv.nomoredomainsmonster.ru/
 
-Backend hhttps://api.mesto.akzntsv.nomoredomainsmonster.ru/
+Backend https://api.mesto.akzntsv.nomoredomainsmonster.ru/
